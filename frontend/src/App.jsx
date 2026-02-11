@@ -25,7 +25,7 @@ import Search from './pages/Search'
 import getAllNotifications from './hooks/getAllNotifications'
 import Notifications from './pages/Notifications'
 import { setNotificationData } from './redux/userSlice'
-export const serverUrl="https://vybe-backend-m2x8.onrender.com"
+export const serverUrl="https://vybe-backend-x0ur.onrender.com"
 function App() {
    getCurrentUser()
    getSuggestedUsers()
