@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 import { serverUrl } from '../App';
+
 function StoryDp({ProfileImage,userName,story}) {
 const navigate=useNavigate()
 const{ userData}=useSelector(state=>state.user)
