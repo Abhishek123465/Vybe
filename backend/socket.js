@@ -6,7 +6,7 @@ const server=http.createServer(app)
 
 const io=new Server(server,{
     cors:{
-        origin:"https://vybe-frontend-h85i.onrender.com",
+        origin:"https://vybe-ofdz.onrender.com",
         methods:["GET","POST"]
     }
 })
