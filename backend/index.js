@@ -14,7 +14,7 @@ dotenv.config()
 
 const port=process.env.PORT || 5000
 app.use(cors({
-    origin:"https://vybe-frontend-h85i.onrender.com",
+    origin:"https://vybe-ofdz.onrender.com",
     credentials:true
 }))
 app.use(express.json())
